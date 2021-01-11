@@ -1,0 +1,8 @@
+git init 
+git add .
+git commit -m "Initial commit"
+git stauts                                   #just to check
+ssh -keygen -t rsa -b 4096 -c "adipatil011@gmail.com"
+tail <path to id_rsa.pub>                    #need to be added to github ssh key after exe
+git remote add origin <SSH url>
+git push origin master
