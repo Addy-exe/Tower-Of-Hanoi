@@ -1,3 +1,5 @@
+// Steps to push Project to Github using Git Bash //
+
 git init 
 git add .
 git commit -m "Initial commit"
